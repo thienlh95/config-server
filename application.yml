@@ -6,16 +6,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-spring:
-    boot:
-        admin:
-            client:
-                url: http://localhost:8093
-
-management:
-    endpoints:
-        web:
-            exposure:
-                include: *
-        health:
-            show-details: always    
